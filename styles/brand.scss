@@ -1,0 +1,95 @@
+.is-font-slant-article {
+    font-family: times;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.is-font-slant-loans {
+    font-family: times;
+    font-style: italic;
+}
+
+.is-font-slant-loans h6 {
+    font-size: 20px;
+}
+
+.is-font-slant-loans h4 {
+    font-size: 26px;
+}
+
+.is-font-slant-team h4 {
+    font-family: times;
+    font-style: italic;
+}
+
+.is-font-slant-team h5 {
+    font-family: times;
+    font-style: italic;
+}
+
+.is-bg-brand {
+    background-color: rgb(5, 147, 212);
+    color: #ffffff;
+}
+
+.is-color-brand {
+    color: rgb(5, 147, 212);
+}
+
+.is-color-darkgray {
+    color: rgb(88, 87, 87);
+}
+
+.is-bg-brand h4 {
+    color: #b7dcf7;
+}
+
+.is-section-light {
+    background-color: rgb(247, 247, 247);
+}
+
+.is-content-gray {
+    color: rgb(158, 156, 158);
+}
+
+.is-content-gray a {
+    color: rgb(158, 156, 158);
+}
+
+.is-black h3 {
+    color: black;
+}
+
+.is-content-gray h2,
+.is-content-gray h3,
+.is-content-gray h4,
+.is-content-gray h5,
+.is-content-gray h6 {
+    color: rgb(119, 118, 119);
+    font-weight: normal;
+}
+
+.is-content-gray h2 {
+    font-size: 30px;
+}
+
+.is-brand ul {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 0px;
+}
+
+.is-brand li {
+    padding-top: 10px;
+}
+
+.is-brand li::before {
+    content: "•";
+    color: rgb(5, 147, 212);
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.is-brand-line hr {
+    border: 1px solid rgb(5, 147, 212);
+}

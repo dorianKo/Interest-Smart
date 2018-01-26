@@ -1,0 +1,78 @@
+.carousel-item .img-fluid {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel {
+  position: relative;
+}
+
+/*tablet*/
+@media screen and (min-width: 767px) {
+  .hover-slide {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    left: 4%;
+  }
+}
+/*tablet-pro*/
+@media screen and (min-width: 1023px) {
+  .hover-slide {
+    position: absolute;
+    width: 100%;
+    top: 120px;
+    left: 50%;
+  }
+}
+/*desktop*/
+@media screen and (min-width: 1050px) {
+  .hover-slide {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 50%;
+  }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 0px;
+  width: 0px;
+  background-color: rgb(5, 146, 212);
+  background-size: 100%, 100%;
+  border-radius: 0;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '';
+  font-size: 45px;
+  color: white;
+}
+
+.carousel-control-prev-icon:after {
+  content: '';
+  font-size: 45px;
+  color: white;
+}
+
+.carousel-indicators--round li {
+  border-radius: 8px;
+  margin: 1px 3px;
+  height: 8px;
+  max-width: 8px;
+  background-color: rgb(199, 195, 195);
+  left: 65%;
+}
+
+.carousel-indicators .active {
+  background-color: rgba(7, 0, 0, 0.808);
+  max-width: 8px;
+  margin: 1px 3px;
+  height: 8px;
+}
+
+.is-hero h4 {
+  color: #FFFFFF;
+}

@@ -1,0 +1,47 @@
+.is-footer {
+    background-color: rgb(43, 41, 41);
+    color: #FFFFFF;
+}
+
+.is-footer-top {
+    font-size: 13px;
+}
+
+.is-footer-top a {
+    color: #FFFFFF;
+}
+
+.is-footer-bottom {
+    color: rgb(100, 99, 99);
+    line-height: 15px;
+    font-size: 11px;
+}
+
+.is-footer-bottom a {
+    color: rgb(158, 156, 158);
+}
+
+.is-foot-gray {
+    color: rgb(100, 99, 99);
+    font-size: 15px;
+    line-height: 18px;
+}
+
+
+
+
+/*tablet-pro*/
+
+@media screen and (max-width: 1025px) {
+    .is-footer-position {
+        position: relative;
+        left: 4%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .is-footer-position {
+        position: relative;
+        left: 0%;
+    }
+}

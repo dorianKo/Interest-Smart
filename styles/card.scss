@@ -1,0 +1,19 @@
+.card {
+    border-radius: 0;
+    border: 0;
+  }
+
+.is-dark-blue {
+    background-color: rgb(14, 46, 77);
+    color: #FFFFFF;
+}
+
+.is-gray {
+    color:rgb(158, 156, 158);
+}
+
+.is-nudge-up {
+    position: relative;
+    top: -50px;
+    border: solid 5px rgb(5, 147, 212);
+}
