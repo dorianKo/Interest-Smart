@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Is your Mortgage Interest Smart? | InterestSmart</title>
+    <title>[[title]]</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="styles/buttons.scss">
     <link rel="stylesheet" href="styles/card.scss">
     <link rel="stylesheet" href="styles/navigation-links.scss">
+    <link rel="stylesheet" href="styles/form.scss">
+    <link rel="stylesheet" href="styles/blog.scss">
 </head>
 
 <body>
@@ -45,13 +47,13 @@
             </a>
             <div class="collapse navbar-collapse ml-auto mr-5" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Homepage
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Homepage
                             <i class="fa fa-caret-down is-color-brand"></i>
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" id="services" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link" href="index.html" id="services" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black">
                             Services
                             <i class="fa fa-caret-down is-color-brand"></i>
                         </a>
@@ -93,7 +95,7 @@
                             <i class="fa fa-caret-down is-color-brand"></i>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="blog.html">Blog
                             <i class="fa fa-caret-down is-color-brand"></i>
                         </a>
@@ -123,225 +125,85 @@
         </a>
     </div>
 
-    <!--hero-mobile-->
-    <section class="col-12 hidden-md-up">
-        <row>
-            <div class="mb-3 mt-4 text-center">
-                <h4>Is Your Mortgage
-                    <div class="hidden-sm-up"></div>Interest Smart?</h4>
-                <a class="btn is-dark-blue btn-block mt-3 mb-2" href="apply.html" role="button">Purchase</a>
-                <a class="btn is-bg-brand btn-block my-1" href="apply.html" role="button">Refinance</a>
-            </div>
-            <div class="card is-bg-brand mt-5">
-                <div class="card-block">
-                    <div class="row">
-                        <div class="col-2">
-                            <img src="assets/19a.jpg" class="rounded-circle is-nudge-up" alt="woman" width="90" height="90">
-                        </div>
-                        <div class="col-2 text-right">
-                            <h4>&nbsp;</h4>
-                            <p class="text-right hidden-md-down">
-                                <i class="fa fa-caret-right"></i>
-                            </p>
-                        </div>
-                        <div class="col-8">
-                            <h4>Speak with</h4>
-                            <p>One of our licensed mortagage bankers now!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="w-100"></div>
-            <div class="card is-gray" style="border: solid 1px rgb(211, 210, 210)">
-                <div class="card-block">
-                    <div class="row">
-                        <div class="col-2"></div>
-                        <div class="col-2 my-auto">
-                            <p class="text-right">
-                                <i class="fa fa-caret-right"></i>
-                            </p>
-                        </div>
-                        <div class="col-8 my-auto">
-                            <h4>Call 800.451.8810</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </row>
-    </section>
-
-    <!--hero-desktop-->
-    <section class="hidden-sm-down">
-        <div id="hero" class="carousel slide" data-ride="carousel" data-interval="6000">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <picture>
-                        <source srcset="assets/16b2000.jpg" media="(min-width: 1400px)">
-                        <source srcset="assets/16b2000.jpg" media="(min-width: 769px)">
-                        <source srcset="assets/16b2000.jpg" media="(min-width: 577px)">
-                        <img srcset="assets/16b2000.jpg" alt="keys" class="d-block img-fluid">
-                    </picture>
-                </div>
-                <div class="carousel-item">
-                    <picture>
-                        <source srcset="assets/9b2000.jpg" media="(min-width: 1400px)">
-                        <source srcset="assets/9b2000.jpg" media="(min-width: 769px)">
-                        <source srcset="assets/9b2000.jpg" media="(min-width: 577px)">
-                        <img srcset="assets/9b2000.jpg" alt="home" class="d-block img-fluid">
-                    </picture>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#hero" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#hero" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-        </div>
-        <div class="row hover-slide">
-            <div class="col-6 pr-5 is-hero mt-md-5 mt-lg-0">
-                <h4>Is Your Mortgage Interest Smart?</h4>
-                <a class="btn is-dark-blue btn-block mt-3 mb-2" href="apply.html" role="button">Purchase</a>
-                <a class="btn is-bg-brand btn-block my-1" href="apply.html" role="button">Refinance</a>
-            </div>
-            <div class="w-100 hidden-md-down"></div>
-            <div class="col-6 pr-5">
-                <div class="card is-bg-brand mt-5">
-                    <div class="card-block">
-                        <div class="row">
-                            <div class="col-2">
-                                <img src="assets/19a.jpg" class="rounded-circle is-nudge-up" alt="woman" width="90" height="90">
-                            </div>
-                            <div class="col-1 text-right hidden-md-down">
-                                <h4>&nbsp;</h4>
-                                <p class="text-right">
-                                    <i class="fa fa-caret-right"></i>
-                                </p>
-                            </div>
-                            <div class="col-9 pl-md-5 pl-lg-0 ml-md-3 ml-lg-0">
-                                <h4>Speak with</h4>
-                                <p>One of our licensed mortagage bankers now!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card is-gray">
-                    <div class="card-block">
-                        <div class="row">
-                            <div class="col-2 hidden-md-down"></div>
-                            <div class="col-1 my-auto pl-md-5 pl-lg-0">
-                                <p class="text-right">
-                                    <i class="fa fa-caret-right"></i>
-                                </p>
-                            </div>
-                            <div class="col-9 my-auto">
-                                <h4>Call 800.451.8810</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <main>
+        <section class="is-section-light is-content-gray is-brand">
+            <section class="mx-5">
+                <div class="row mb-3">
+                    <div class="col mt-3">
+                        <h1>[[Title]]</h1>
+                        <img src="assets/blog-post-1.jpg" class="img-fluid">
+                    </div>
+                </div>
 
-        <!--text-and-video-row-->
-        <section class="row my-sm-5 my-0 mt-sm-0 mt-5 mx-5 is-content-gray">
-            <article class="col-12 col-sm-6 text-center mr-0 is-brand-line">
-                <h3>Lifetime low interest monitor guarantee</h3>
-                <hr width="50" />
-                <p class="is-font-slant-article">
-                    InterestSmart's industry leading mortgage technology not only delivers maximum interest savings at closing but also monitors
-                    your mortgage throughout the life of your loan. Helping you to potentially pay less over the lifetime
-                    of your loan.
-                </p>
-                <p class="hidden-md-down">
-                    <a class="btn btn-primary btn-block" href="loan-programs.html" role="button">
-                        Learn More About Our Loan Programs
-                    </a>
-                </p>
-                <p class="hidden-lg-up">
-                    <a class="btn btn-primary btn-block" style="font-size:12px" href="loan-programs.html" role="button">
-                        Learn More About Our Loan Programs
-                    </a>
-                </p>
-            </article>
-            <div class="col-12 col-sm-6 text-center ml-0 mt-1 mt-sm-0">
-                <iframe src="https://player.vimeo.com/video/139608697" width="100%" height="250" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-            </div>
-        </section>
+                <!--blog-posts-go-in-between-article-tags-->
+                <div class="row pb-2">
+                    <article class="col-12 pb-5 is-post">
+                        <div class="is-brand-line">
+                            <h4>Price Growth is Slowing</h4>
+                            <p>
+                                We’re currently in a period of record home price growth. For nearly 2 years, home prices have climbed consistently and the
+                                first part of 2017 tracked some of the largest gains in over 5 years. Prices will continue
+                                to rise as we turn the page into 2018 as a result of low interest rates, low unemployment,
+                                and continued economic growth. The good news for those looking to purchase in 2018 is that
+                                the rate of that growth will begin to slow.
+                            </p>
 
+                            <h4>Sales Will Slow Early in 2018</h4>
+                            <p>
+                                As price growth slows, sales will follow suit – but not for long. The new tax bill has several provisions that directly impact
+                                housing – property tax deductions, mortgage interest changes, and general uncertainty regarding
+                                the financial impact of the bill will cause a short slow down in sales. As people are evaluating
+                                the effects of the new tax plan on their own personal budgets and the value of their homes,
+                                it might cause some hesitation to make any decisions in regards to housing. The slowdown
+                                likely won’t last long due to pent up demand and following the recent market growth.
+                            </p>
 
-        <!--second-row-->
+                            <h4>Inventory Will Continue to be a Challenge</h4>
+                            <p>
+                                Continuing the trend from 2017, a decline in housing inventory will characterize 2018. Based on statistics from
+                                <a href="https://www.zillow.com/research/local-market-reports/">Zillow</a>, we experienced a 10.5% decline in housing inventory over 12 months ending in
+                                November. The struggle for inventory is a result of several factors. Due to the state of
+                                the market, older homeowners are declining to sell their homes and choosing to retire in
+                                their existing homes instead. With the growth of the short term rental industry, investors
+                                are making too much as landlords to sell. There is some hope for home buyers in 2018, however.
+                            </p>
 
-        <section class="is-section-light is-content-gray">
-            <div class="row py-sm-5 py-5 pt-sm-0 pt-1 mx-5">
-                <article class="col-12 col-sm-6 mr-0">
-                    <h5 class="mb-3">We would like to thank you all for your effort and dedication.</h5>
-                    <div id="appraisal" class="carousel slide" data-ride="carousel" data-interval="10000" data-pause="hover">
-                        <ol class="carousel-indicators carousel-indicators--round">
-                            <li data-target="#appraisal" data-slide-to="0" class="active"></li>
-                            <li data-target="#appraisal" data-slide-to="1"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-4 col-lg-2">
-                                        <img src="assets/man.png" width="80">
-                                    </div>
-                                    <div class="col-8 col-lg-10">
-                                        <p class="is-font-slant-article">
-                                            “We would like to thank you for your effort and dedication. You made a commitment to us and delivered in less time than we
-                                            thought. The loyalty, great communication and respect during the process was
-                                            more than we could have asked for. We can’t imagine where we would be today without
-                                            you help.”
-                                        </p>
-                                        <hr width="20px" align="left">
-                                        <h6 class="is-font-slant-article">
-                                            - Eric &amp; Taylor M.
-                                        </h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-4 col-lg-2">
-                                        <img src="assets/man.png" width="80">
-                                    </div>
-                                    <div class="col-8 col-lg-10">
-                                        <p class="is-font-slant-article">
-                                            “Andrew Christie helped me buy the house I wanted. I work for an over seas company and its not easy to a loan with so little
-                                            information available from China. Andrew was able to walk me through the process
-                                            and get the loan and rate I wanted and in the time frame I needed. It was truly
-                                            almost a miracle!!”
-                                        </p>
-                                        <hr width="20px" align="left">
-                                        <h6 class="is-font-slant-article">
-                                            - Teri T. Laguna Niguel, CA
-                                        </h6>
-                                    </div>
-                                </div>
+                            <h4>Mortgage rates will hover around 4%.</h4>
+                            <p>
+                                While this is a bit higher than the rates of the previous year, most experts are predicting that mortgage rates will reach
+                                between 4% and 4.5% by the end of 2018. The expectation of rising rates combined with increased
+                                home prices means that buyers should act fast.
+                            </p>
+
+                            <h4>Increased Equity Gives Homeowners Options</h4>
+                            <p>
+                                As home values increase, current homeowners have options with what to do with their increased equity. Homeowners looking
+                                to remodel or make home improvements, consolidate debt or otherwise cash-out on their home
+                                equity can do so more easily than the past few years. According to Freddie Mac, $15 billion
+                                was cashed out in the 2nd quarter of 2017 and that trend will likely continue to increase
+                                along with home prices.
+                            </p>
+                            <br/>
+                            <div class="mt-3">
+                                <hr width="5%" align="left">
+                                <a href="#!">[[Author]]</a>
+                                <br>
+                                <a href="#!">[[category]]</a>
                             </div>
                         </div>
-
+                    </article>
+                </div>
+                <div class="row pb-5 is-blue">
+                        <div class="col md-6 pl-4">
+                            <i class="fa fa-caret-left"></i>
+                            <a href="#!"><strong>Previous</strong></a>
+                        </div>
+                        <div class="col md-push-6 pr-4 text-right">
+                            <a href="#!"><strong>Next</strong></a> <i class="fa fa-caret-right"></i>
+                        </div>
                     </div>
-                </article>
-                <article class="col-12 col-sm-6 ml-0 mt-5 mt-sm-0">
-                    <h5 class="mb-3">Our loan experts</h5>
-                    <p class="is-font-slant-article">
-                        will work with you to get the best loan available at a payment you can afford. Our staff can look at a number of different
-                        programs to determine the best rate and the best fit for you.
-                        <br/>
-                        <br/> Apply online &amp; see the difference!
-                    </p>
-                    <p>
-                        <a class="btn btn-primary btn-block" href="apply.html" role="button">Apply Now</a>
-                    </p>
-                </article>
-            </div>
+            </section>
         </section>
     </main>
     <!--navigation-links-->
@@ -484,6 +346,8 @@
         </section>
 
     </footer>
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
