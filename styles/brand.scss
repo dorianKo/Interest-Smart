@@ -1,3 +1,8 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
 .is-font-slant-article {
     font-family: times;
     font-style: italic;
@@ -49,7 +54,7 @@
 }
 
 .is-content-gray {
-    color: rgb(158, 156, 158);
+    color: rgb(136, 135, 136);
 }
 
 .is-content-gray a {
@@ -75,12 +80,13 @@
 
 .is-brand ul {
     list-style: none;
-    padding-left: 0;
     padding-top: 0px;
 }
 
 .is-brand li {
     padding-top: 10px;
+    list-style-position: inside;
+    text-indent: -1.5em;
 }
 
 .is-brand li::before {
@@ -92,4 +98,12 @@
 
 .is-brand-line hr {
     border: 1px solid rgb(5, 147, 212);
+}
+
+.is-underline a {
+    text-decoration: underline;
+}
+
+.is-underline a:hover {
+    color: black;
 }

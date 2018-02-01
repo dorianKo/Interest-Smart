@@ -30,17 +30,44 @@ nav .active {
     position: relative;
 }
 
-nav .active:before {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 1px;
-    bottom: 10px;
-    left: 8px;
-    border-bottom: 2px solid rgb(0, 174, 255);
-    ;
+@media screen and (min-width: 1021px) {
+    nav .active:before {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 1px;
+        bottom: 10px;
+        left: 8px;
+        border-bottom: 2px solid rgb(0, 174, 255);
+        ;
+    }
+}
+
+.active .nav-link {
+    color: black;
+}
+
+@media screen and (max-width: 1020px) {
+    nav .active:before {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 1px;
+        bottom: 10px;
+        left: 1px;
+        border-bottom: 2px solid rgb(0, 174, 255);
+        ;
+    }
 }
 
 nav {
-    box-shadow: 0px 3px 10px rgba(139, 139, 139, 0.308); 
+    box-shadow: 0px 3px 10px rgba(139, 139, 139, 0.308);
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.navbar-toggler-icon {
+    margin-top: 9px;
 }
